@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практическая работа 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <h1 class="header-headline">Практическая работа 1</h1>
+            <h2 class="header-title">Ravencer</h2>
+        </div>
+    </header>
+    <main>
+        <div class="main-container">
+            <h2 class="main-title">Калькулятор ремонта</h2>
+            <div class="main-container-calc">
+                <div class="calc-inputs">
+                    <input class="calc-input" placeholder="Ввведите длину стен, м." id="in_length">
+                    <input class="calc-input" placeholder="Ввведите ширину стен, м." id="in_width">
+                    <input class="calc-input" placeholder="Введите высоту потолка, м." id="in_height">
+                </div>
+                <div class="calc-checkboxes">
+                    <div class="calc-checkboxes-container">
+                        <div class="calc-checkbox">
+                            <input class="checkbox-box" type="checkbox" checked id="wallpaper">
+                            <label for="wallpaper">Обои</label>
+                        </div>
+                        <div class="calc-checkboxes-inputs">
+                            <input class="calc-input" placeholder="Ввведите стоимость рулона, руб." id="in_wallCost">
+                            <input class="calc-input" placeholder="Ввведите ширину рулона, м." id="in_wallWidth">
+                        </div>
+                    </div>
+                    <div class="calc-checkboxes-container">
+                        <div class="calc-checkbox">
+                            <input class="checkbox-box" type="checkbox" id="paint">
+                            <label for="paint">Краска</label>
+                        </div>
+                        <div class="calc-checkboxes-inputs-hidden calc-checkboxes-inputs">
+                            <input class="calc-input" placeholder="Ввведите стоимость 1 л. краски, руб." id="in_paintCost">
+                            <input class="calc-input" placeholder="Ввведите расход краски, л./м." id="in_paintWidth">
+                        </div>
+                    </div>
+                </div>
+                <p class="calc-result calc-result-hidden" id="result_ren">Стоимость ремонта: 200 Руб.</p>
+                <button class="button-result" id="btn1">Рассчитать</button>
+            </div>
+        </div>
+        <div class="main-container">
+            <h2 class="main-title">Фиксатор штрафов</h2>
+            <div class="main-container-calc">
+                <div class="calc-inputs">
+                    <input class="calc-input" placeholder="Введите вашу скорость, км/ч" id="in_speed">
+                </div>
+                <p class="calc-result calc-result-hidden" id="result_pen">Ваш штраф - </p>
+                <button class="button-result" id="btn2">Выписать штраф</button>
+            </div>
+        </div>
+        <div class="main-container">
+            <h2 class="main-title">Зачёт по подтягиваниям</h2>
+            <div class="main-container-calc">
+                <div class="calc-inputs">
+                    <input class="calc-input" placeholder="Введите количество студентов, чел." id="in_students">
+                </div>
+                <p class="calc-result calc-result-hidden" id="result_exam">-</p>
+                <button class="button-result" id="btn3">Провести зачёт</button>
+            </div>
+        </div>
+        <div class="main-container">
+            <h2 class="main-title">Самое длинное слово</h2>
+            <div class="main-container-calc">
+                <div class="calc-inputs">
+                    <input class="calc-input" placeholder="Введите ваше предложение" id="in_sentence">
+                </div>
+                <p class="calc-result calc-result-hidden" id="result_sentence">-</p>
+                <button class="button-result" id="btn4">Рассчитать</button>
+            </div>
+        </div>
+        <div class="main-container">
+            <h2 class="main-title">Валидатор паролей</h2>
+            <div class="main-container-calc">
+                <div class="calc-inputs">
+                    <input class="calc-input" placeholder="Введите пароль" id="in_pass">
+                </div>
+                <p class="calc-result calc-result-hidden" id="result_pass">-</p>
+                <button class="button-result" id="btn5">Проверить пароль</button>
+            </div>
+        </div>
+    </main>
+</body>
+<script type="text/javascript" src='script_1.js'></script>
+</html>

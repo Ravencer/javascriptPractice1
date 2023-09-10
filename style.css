@@ -1,0 +1,146 @@
+body {
+    background-color: rgb(158, 122, 36, 0.7); 
+    display: flex; 
+    align-items:center; 
+    justify-content:center; 
+    flex-wrap:wrap;
+}
+.header{
+    background-color: #EABB4D; 
+    width: 70%; 
+    max-height:fit-content; 
+    display:flex; 
+    align-items:center; 
+    justify-content:center; 
+    border-radius: 10px 10px 10px 10px;
+}
+.header-container{
+    width: 50%; 
+    display:flex; 
+    align-items:center; 
+    justify-content: center; 
+    flex-wrap:wrap; 
+    color: rgb(44, 87, 179); 
+    font-family: Apple Chancery, cursive;
+}
+.header-headline {
+    width:100%; 
+    text-align:center;
+}
+.header-title{
+    width:100%; 
+    text-align:center;
+}
+main{
+    background-color: #EABB4D; 
+    width: 70%; 
+    max-height:fit-content; 
+    display:flex; 
+    align-items:center; 
+    justify-content:center; 
+    border-radius: 10px 10px 10px 10px; 
+    margin-top: 30px; 
+    flex-wrap:wrap;
+}
+.main-container{
+    width: 80%; 
+    display:flex; 
+    align-items:center; 
+    justify-content: center; 
+    flex-wrap:wrap; 
+    color: rgb(44, 87, 179); 
+    font-family: Apple Chancery, cursive; 
+    border-bottom: 1px solid grey; 
+    padding: 5px; 
+    margin-top: 5px;
+}
+.main-title{
+    width:100%; 
+    text-align:center; 
+    margin-bottom: 30px;
+}
+.main-container-calc{
+    width:100%; 
+    display:flex; 
+    justify-content:center; 
+    align-items:center; 
+    flex-wrap:wrap;
+}
+.calc-inputs{
+    width: 70%; 
+    display:flex; 
+    justify-content:center; 
+    align-items:center; 
+    flex-wrap:wrap; 
+    margin-bottom: 30px;
+}
+.calc-input{
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.calc-checkboxes{
+    width:100%; 
+    display:flex; 
+    justify-content:space-evenly; 
+    align-items:center; 
+    flex-wrap:wrap; 
+    margin-bottom: 30px;
+}
+.calc-checkboxes-container{
+    display:flex; 
+    align-items: center; 
+    justify-content:center; 
+    flex-wrap:wrap; 
+    width: 50%;
+}
+.calc-checkbox{
+    width: 100%; 
+    display: flex; 
+    justify-content:center; 
+    align-items: center;
+}
+.calc-result{
+    width:100%; 
+    text-align:center; 
+}
+.calc-result-hidden{
+    visibility:hidden;
+}
+.button-result{
+    background-color: #e7e7e7; 
+    color: black;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.checkbox-box{
+    cursor: pointer;
+}
+.calc-checkboxes-inputs{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.calc-checkboxes-inputs-hidden{
+    visibility: hidden;
+}
